@@ -11,8 +11,8 @@ def on_click(evt) :
             rate(5)
             b.pos.y += 0.1
             b.pos.x += random.uniform(-0.15, 0.1)
+            b.opacity = b.opacity  - 0.15
             
+               
     
-   
 scene.bind('click', on_click)
-    
